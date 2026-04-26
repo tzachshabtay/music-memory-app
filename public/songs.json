@@ -1,0 +1,130 @@
+[
+  {
+    "No": 1,
+    "Composer": "Louis Prima",
+    "Major Work": "Sing, Sing, Sing",
+    "Selection": "",
+    "Notes": "Performed by Benny Goodman and His Orchestra",
+    "playable_url": "songs/01 - Benny Goodman and His Orchestra - Sing, Sing, Sing.webm"
+  },
+  {
+    "No": 2,
+    "Composer": "George Gershwin",
+    "Major Work": "Rhapsody in Blue",
+    "Selection": "",
+    "Notes": "",
+    "playable_url": "songs/02 - Rhapsody in Blue.webm"
+  },
+  {
+    "No": 3,
+    "Composer": "John Williams",
+    "Major Work": "Cantina Band",
+    "Selection": "",
+    "Notes": "From Star Wars",
+    "playable_url": "songs/03 - Cantina Band.webm"
+  },
+  {
+    "No": 4,
+    "Composer": "Andrew Lloyd Webber",
+    "Major Work": "The Music of the Night",
+    "Selection": "",
+    "Notes": "From The Phantom of the Opera",
+    "playable_url": "songs/04 - Phantom of the Opera The Music of the Night.webm"
+  },
+  {
+    "No": 5,
+    "Composer": "Ron Nelson",
+    "Major Work": "Rocky Point Holiday",
+    "Selection": "",
+    "Notes": "",
+    "playable_url": "songs/05 - Rocky Point Holiday.webm"
+  },
+  {
+    "No": 6,
+    "Composer": "Gioachino Rossini",
+    "Major Work": "The Barber of Seville",
+    "Selection": "Largo al factotum",
+    "Notes": "Act I (Figaro’s aria)",
+    "playable_url": "songs/06 - The Barber of Seville, Act I - Figaro's Aria - Largo al factotum.webm"
+  },
+  {
+    "No": 7,
+    "Composer": "Antonio Vivaldi",
+    "Major Work": "Gloria in D Major, RV 589",
+    "Selection": "I. Gloria in excelsis Deo",
+    "Notes": "",
+    "playable_url": "songs/07 - Gloria in D Major, RV 589 - I. Gloria in excelsis Deo.webm"
+  },
+  {
+    "No": 8,
+    "Composer": "Richard Wagner",
+    "Major Work": "Der fliegende Holländer",
+    "Selection": "Overture",
+    "Notes": "",
+    "playable_url": "songs/08 - Der fliegende Holländer - Overture.webm"
+  },
+  {
+    "No": 9,
+    "Composer": "Dan Welcher",
+    "Major Work": "Starlight Night",
+    "Selection": "",
+    "Notes": "",
+    "playable_url": "songs/09 - Starlight Night.webm"
+  },
+  {
+    "No": 10,
+    "Composer": "Léo Delibes",
+    "Major Work": "Lakmé",
+    "Selection": "Dôme épais, le jasmin",
+    "Notes": "Flower Duet",
+    "playable_url": "songs/10 - Lakmé, Act 1 - Dôme épais, le jasmin.webm"
+  },
+  {
+    "No": 11,
+    "Composer": "Bach",
+    "Major Work": "Toccata and Fugue in D minor",
+    "Selection": "",
+    "Notes": "BWV 565",
+    "playable_url": "songs/11 - Toccata and Fugue in D minor.webm"
+  },
+  {
+    "No": 12,
+    "Composer": "Charles Ives",
+    "Major Work": "Variations on America",
+    "Selection": "",
+    "Notes": "",
+    "playable_url": "songs/12 - Variations on America.webm"
+  },
+  {
+    "No": 13,
+    "Composer": "Joseph Haydn",
+    "Major Work": "Symphony No. 94 in G Major, “Surprise”",
+    "Selection": "II. Andante",
+    "Notes": "",
+    "playable_url": "songs/13 - Symphony No. 94 in G Major - II. Andante.webm"
+  },
+  {
+    "No": 14,
+    "Composer": "Felix Mendelssohn",
+    "Major Work": "A Midsummer Night’s Dream",
+    "Selection": "Dance of the Clowns",
+    "Notes": "",
+    "playable_url": "songs/14 - A Midsummer Night's Dream - Dance of the Clowns.webm"
+  },
+  {
+    "No": 15,
+    "Composer": "Camille Saint-Saëns",
+    "Major Work": "Carnival of the Animals",
+    "Selection": "Finale",
+    "Notes": "",
+    "playable_url": "songs/15 - Carnival Of The Animals, Finale.webm"
+  },
+  {
+    "No": 16,
+    "Composer": "Ludwig van Beethoven",
+    "Major Work": "Symphony No. 6 in F Major, “Pastoral”",
+    "Selection": "I. Allegro ma non troppo",
+    "Notes": "",
+    "playable_url": "songs/16 - Symphony No. 6 in F Major.webm"
+  }
+]

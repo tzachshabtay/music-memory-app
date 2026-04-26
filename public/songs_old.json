@@ -1,0 +1,130 @@
+[
+  {
+    "No": 1,
+    "Composer": "Bach",
+    "Major Work": "Concerto for 2 Violins in D minor, “Double”",
+    "Selection": "Movement 1",
+    "Notes": "",
+    "playable_url": "songs/bach.mp3"
+  },
+  {
+    "No": 2,
+    "Composer": "Beethoven",
+    "Major Work": "Symphony No. 5 in D Minor",
+    "Selection": "Movement 1",
+    "Notes": "",
+    "playable_url": "songs/beethoven.mp3"
+  },
+  {
+    "No": 3,
+    "Composer": "Chopin",
+    "Major Work": "",
+    "Selection": "Polonaise in A Major, “Military”",
+    "Notes": "Op. 40, No. 1, piano",
+    "playable_url": "songs/chopin.mp3"
+  },
+  {
+    "No": 4,
+    "Composer": "Copland",
+    "Major Work": "Rodeo",
+    "Selection": "Hoe-Down",
+    "Notes": "",
+    "playable_url": "songs/copland.mp3"
+  },
+  {
+    "No": 5,
+    "Composer": "Fauré",
+    "Major Work": "Requiem in D minor",
+    "Selection": "Pie Jesu",
+    "Notes": "sung in Latin, soprano",
+    "playable_url": "songs/faure.mp3"
+  },
+  {
+    "No": 6,
+    "Composer": "Glière",
+    "Major Work": "The Red Poppy",
+    "Selection": "Russian Sailor’s Dance",
+    "Notes": "",
+    "playable_url": "songs/gliere.mp3"
+  },
+  {
+    "No": 7,
+    "Composer": "Gould",
+    "Major Work": "",
+    "Selection": "American Salute",
+    "Notes": "",
+    "playable_url": "songs/gould.mp3"
+  },
+  {
+    "No": 8,
+    "Composer": "Grieg",
+    "Major Work": "Holberg Suite",
+    "Selection": "Prelude",
+    "Notes": "strings",
+    "playable_url": "songs/grieg.mp3"
+  },
+  {
+    "No": 9,
+    "Composer": "Holst",
+    "Major Work": "Suite No. 2",
+    "Selection": "March",
+    "Notes": "band",
+    "playable_url": "songs/holst.mp3"
+  },
+  {
+    "No": 10,
+    "Composer": "Joplin",
+    "Major Work": "",
+    "Selection": "Maple Leaf Rag",
+    "Notes": "piano",
+    "playable_url": "songs/joplin.mp3"
+  },
+  {
+    "No": 11,
+    "Composer": "Lloyd Webber",
+    "Major Work": "Requiem",
+    "Selection": "Pie Jesu",
+    "Notes": "sung in Latin, soprano and boy soprano, also accept Webber",
+    "playable_url": "songs/webber.mp3"
+  },
+  {
+    "No": 12,
+    "Composer": "M. Monk",
+    "Major Work": "",
+    "Selection": "Railroad (Travel Song)",
+    "Notes": "piano",
+    "playable_url": "songs/monk.mp3"
+  },
+  {
+    "No": 13,
+    "Composer": "Mozart",
+    "Major Work": "Exsultate, jubilate",
+    "Selection": "Alleluja",
+    "Notes": "soprano; accept “Alleluia”",
+    "playable_url": "songs/mozart.mp3"
+  },
+  {
+    "No": 14,
+    "Composer": "Palestrina",
+    "Major Work": "Missa Hodie Christus natus est, “Christmas Mass”",
+    "Selection": "Kyrie",
+    "Notes": "sung in Latin, a cappella",
+    "playable_url": "songs/palestrina.mp3"
+  },
+  {
+    "No": 15,
+    "Composer": "R. Strauss",
+    "Major Work": "Also sprach Zarathustra",
+    "Selection": "Introduction",
+    "Notes": "",
+    "playable_url": "songs/strauss.mp3"
+  },
+  {
+    "No": 16,
+    "Composer": "Telemann",
+    "Major Work": "Table Music: Part 1",
+    "Selection": "Overture: Movement 3. Rondeau",
+    "Notes": "",
+    "playable_url": "songs/telemann.mp3"
+  }
+]
