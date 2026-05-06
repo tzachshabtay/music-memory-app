@@ -292,9 +292,16 @@ main {
   box-shadow: 0 4px 15px rgba(72, 187, 120, 0.4);
 }
 
-.submit-btn:hover {
+.submit-btn:hover:not(:disabled) {
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(72, 187, 120, 0.6);
+}
+
+.submit-btn:disabled {
+  background: linear-gradient(135deg, #cbd5e0 0%, #a0aec0 100%);
+  cursor: not-allowed;
+  box-shadow: none;
+  opacity: 0.6;
 }
 
 .results {

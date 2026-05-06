@@ -4,6 +4,7 @@ import { Song, GameState } from './types';
 
 function App() {
   const [songs, setSongs] = useState<Song[]>([]);
+  const [songSelectionCounts, setSongSelectionCounts] = useState<Map<number, number>>(new Map());
   const [gameState, setGameState] = useState<GameState>({
     phase: 'playing',
     currentSong: null,
@@ -113,19 +114,42 @@ function App() {
     return aliases;
   };
 
-  // Select a random song and random start time
+  // Select a random song from the group with minimum selections
+  // This ensures even distribution - all songs are played before any repeats
   const selectRandomSong = (songList: Song[]) => {
     if (songList.length === 0) return;
 
-    const randomSong = songList[Math.floor(Math.random() * songList.length)];
+    // Find the minimum selection count across all songs
+    const minCount = Math.min(
+      ...songList.map(song => songSelectionCounts.get(song.No) || 0)
+    );
+
+    // Filter to only songs with the minimum count
+    const leastPlayedSongs = songList.filter(
+      song => (songSelectionCounts.get(song.No) || 0) === minCount
+    );
+
+    // Randomly select from the least-played songs
+    const randomSong = leastPlayedSongs[Math.floor(Math.random() * leastPlayedSongs.length)];
+
+    console.log(`Selecting song #${randomSong.No}: ${randomSong['Major Work']} (count: ${songSelectionCounts.get(randomSong.No) || 0})`);
+    console.log(`Least played songs available: ${leastPlayedSongs.map(s => s.No).join(', ')}`);
 
     // Load audio to get duration, then select random time
     const audio = new Audio(randomSong.playable_url);
-    audio.addEventListener('loadedmetadata', () => {
+
+    const handleMetadata = () => {
       const duration = audio.duration;
       // Ensure we have at least 20 seconds left to play
       const maxStartTime = Math.max(0, duration - 20);
       const startTime = Math.random() * maxStartTime;
+
+      // Update selection count AFTER successful load
+      setSongSelectionCounts(prev => {
+        const newCounts = new Map(prev);
+        newCounts.set(randomSong.No, (newCounts.get(randomSong.No) || 0) + 1);
+        return newCounts;
+      });
 
       setGameState({
         phase: 'playing',
@@ -142,7 +166,16 @@ function App() {
         totalScore: gameState.totalScore,
         questionsAnswered: gameState.questionsAnswered,
       });
-    });
+    };
+
+    const handleError = (e: Event) => {
+      console.error(`Failed to load audio for song #${randomSong.No}:`, e);
+      // Try another song if this one fails
+      selectRandomSong(songList);
+    };
+
+    audio.addEventListener('loadedmetadata', handleMetadata, { once: true });
+    audio.addEventListener('error', handleError, { once: true });
   };
 
   // Load audio when a new song is selected
@@ -538,7 +571,11 @@ function App() {
               </select>
             </div>
 
-            <button type="submit" className="submit-btn">
+            <button
+              type="submit"
+              className="submit-btn"
+              disabled={!gameState.userAnswers.composer || !gameState.userAnswers.majorWork}
+            >
               Submit Answer
             </button>
           </form>
