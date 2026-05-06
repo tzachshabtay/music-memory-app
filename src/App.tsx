@@ -36,7 +36,7 @@ function App() {
 
   // Load songs on mount
   useEffect(() => {
-    fetch('/songs.json')
+    fetch('./songs.json')
       .then(res => res.json())
       .then((data: Song[]) => {
         setSongs(data);
@@ -481,7 +481,7 @@ function App() {
     <div className="app">
       <header>
         <div className="profile-image-container">
-          <img src="/ethan.png" alt="Ethan" className="profile-image" />
+          <img src="./ethan.png" alt="Ethan" className="profile-image" />
         </div>
         <h1>Music Memory Practice</h1>
         <p className="subtitle">Ethan's Practice Session</p>
